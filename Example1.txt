@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Example1 {
+
+ public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input the first number: ");
+        double x = in.nextDouble();
+        System.out.print("Input the Second number: ");
+        double y = in.nextDouble();
+        System.out.print("Input the third number: ");
+        double z = in.nextDouble();
+        
+ double c=smallest(x,y,z);
+        System.out.print("The smallest value is " + c );
+    }
+
+   public static double smallest(double n1, double n2, double n3){
+	   double min;
+   if (n1<n2 && n1<n3)
+    {
+       min=n1;
+  
+    }
+   else if(n2<n1 && n2<n3)
+   {
+	min=n2;  
+   }
+   else
+   {
+	   min=n3;
+}
+   return min;
+}
+}
+
