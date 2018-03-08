@@ -1,0 +1,17 @@
+import java.util.*;
+public class Linkedlist {
+
+
+	 
+	public static void main(String[] args) {
+		LinkedList l1= new LinkedList();
+		l1.add("tim");
+		l1.add("Jim");
+		l1.add("Sim");
+		l1.add("Tim");
+		l1.add("Dim");
+		
+		
+System.out.println("Linkedlist:"+l1);
+		}
+	}
